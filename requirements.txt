@@ -1,0 +1,17 @@
+# Speaker Separator Node Dependencies
+# ==================================
+
+# Core audio processing
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.21.0
+
+# Diarization (requires HuggingFace account & model access)
+# Accept model terms at:
+#   https://huggingface.co/pyannote/speaker-diarization-3.1
+#   https://huggingface.co/pyannote/segmentation-3.0
+pyannote-audio>=3.1.0
+
+# Source Separation (SepFormer)
+# Models download automatically on first use (~200MB each)
+speechbrain>=1.0.0
